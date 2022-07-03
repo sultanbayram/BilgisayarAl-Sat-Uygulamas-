@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74232404096",
+    "project_id": "pcalsat-116ce",
+    "storage_bucket": "pcalsat-116ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74232404096:android:7d1b99cf70e469bab6ee65",
+        "android_client_info": {
+          "package_name": "com.example.bilgisayaralsat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74232404096-rt2rhp6hg20u777dg570kcb0sp7ibu6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc4lXdPjbVhDJShRTgzRYkpZpYHuLNIKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74232404096-rt2rhp6hg20u777dg570kcb0sp7ibu6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

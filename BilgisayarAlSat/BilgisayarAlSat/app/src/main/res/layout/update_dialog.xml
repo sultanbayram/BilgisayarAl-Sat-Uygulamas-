@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF7E0"
+    android:onClick="UpdateEt"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity"
+    tools:ignore="OnClick">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="426dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="120dp"
+                android:background="#B8959B"
+                android:gravity="center"
+                android:minHeight="45dp"
+                android:text="Ilan Bilgileri"
+                android:textColor="#276EB5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="193dp" />
+
+            <EditText
+                android:id="@+id/ilanBaslikEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Baslik girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="253dp" />
+
+            <EditText
+                android:id="@+id/ilanAciklamaEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#C9D1FA"
+                android:hint="Aciklama girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteY="343dp" />
+
+
+            <EditText
+                android:id="@+id/telefonBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="İletişim no girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+            <EditText
+                android:id="@+id/ilanFiyatEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Fiyat girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/markaBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Marka girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/ramBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Ram girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+            <EditText
+                android:id="@+id/islemciBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="İslemci girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/eboyutuBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Ekran boyutu girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/cozunurlukBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Çözünürlük girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/modelBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Model girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/yilBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Pc yili girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/durumBilgiEditText"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C9D1FA"
+                android:hint="Durum girin"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/UpdateEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="UpdateEt"
+                android:text="Update Et"
+                tools:ignore="OnClick" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

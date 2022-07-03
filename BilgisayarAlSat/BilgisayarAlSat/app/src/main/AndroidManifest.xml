@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.example.deneme">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        
+        android:icon="@drawable/logo"
+        android:label="BİLGİSAYAR AL&amp;SAT"
+
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deneme"
+        tools:targetApi="31">
+        <activity
+            android:name=".IlanlarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MesajlarimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IlanEkleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IlanlarimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnaEkranActivity"
+            android:exported="false" />
+        <activity
+        android:name=".IlanlarDetailActivity"
+        android:exported="false" />
+        <activity
+            android:name=".FavoriActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".IlanlarimDetay"
+            android:exported="false" />
+        <activity
+            android:name=".KullaniciActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

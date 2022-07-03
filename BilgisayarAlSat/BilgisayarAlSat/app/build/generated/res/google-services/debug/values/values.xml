@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">74232404096-rt2rhp6hg20u777dg570kcb0sp7ibu6b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">74232404096</string>
+    <string name="google_api_key" translatable="false">AIzaSyBc4lXdPjbVhDJShRTgzRYkpZpYHuLNIKE</string>
+    <string name="google_app_id" translatable="false">1:74232404096:android:7d1b99cf70e469bab6ee65</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBc4lXdPjbVhDJShRTgzRYkpZpYHuLNIKE</string>
+    <string name="google_storage_bucket" translatable="false">pcalsat-116ce.appspot.com</string>
+    <string name="project_id" translatable="false">pcalsat-116ce</string>
+</resources>
